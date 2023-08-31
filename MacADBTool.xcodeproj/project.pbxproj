@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B81B3A92AA0F4C900DD44CA /* MacADBToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81B3A82AA0F4C900DD44CA /* MacADBToolApp.swift */; };
+		2B81B3AB2AA0F4C900DD44CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81B3AA2AA0F4C900DD44CA /* ContentView.swift */; };
+		2B81B3AD2AA0F4CA00DD44CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B81B3AC2AA0F4CA00DD44CA /* Assets.xcassets */; };
+		2B81B3B02AA0F4CA00DD44CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B81B3AF2AA0F4CA00DD44CA /* Preview Assets.xcassets */; };
+		2B81B3BB2AA0F4CA00DD44CA /* MacADBToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81B3BA2AA0F4CA00DD44CA /* MacADBToolTests.swift */; };
+		2B81B3C52AA0F4CA00DD44CA /* MacADBToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81B3C42AA0F4CA00DD44CA /* MacADBToolUITests.swift */; };
+		2B81B3C72AA0F4CA00DD44CA /* MacADBToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81B3C62AA0F4CA00DD44CA /* MacADBToolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B81B3B72AA0F4CA00DD44CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B81B39D2AA0F4C900DD44CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B81B3A42AA0F4C900DD44CA;
+			remoteInfo = MacADBTool;
+		};
+		2B81B3C12AA0F4CA00DD44CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B81B39D2AA0F4C900DD44CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B81B3A42AA0F4C900DD44CA;
+			remoteInfo = MacADBTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B81B3A52AA0F4C900DD44CA /* MacADBTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacADBTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B81B3A82AA0F4C900DD44CA /* MacADBToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacADBToolApp.swift; sourceTree = "<group>"; };
+		2B81B3AA2AA0F4C900DD44CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B81B3AC2AA0F4CA00DD44CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B81B3AF2AA0F4CA00DD44CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B81B3B12AA0F4CA00DD44CA /* MacADBTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacADBTool.entitlements; sourceTree = "<group>"; };
+		2B81B3B62AA0F4CA00DD44CA /* MacADBToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacADBToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B81B3BA2AA0F4CA00DD44CA /* MacADBToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacADBToolTests.swift; sourceTree = "<group>"; };
+		2B81B3C02AA0F4CA00DD44CA /* MacADBToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacADBToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B81B3C42AA0F4CA00DD44CA /* MacADBToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacADBToolUITests.swift; sourceTree = "<group>"; };
+		2B81B3C62AA0F4CA00DD44CA /* MacADBToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacADBToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B81B3A22AA0F4C900DD44CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81B3B32AA0F4CA00DD44CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81B3BD2AA0F4CA00DD44CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B81B39C2AA0F4C900DD44CA = {
+			isa = PBXGroup;
+			children = (
+				2B81B3A72AA0F4C900DD44CA /* MacADBTool */,
+				2B81B3B92AA0F4CA00DD44CA /* MacADBToolTests */,
+				2B81B3C32AA0F4CA00DD44CA /* MacADBToolUITests */,
+				2B81B3A62AA0F4C900DD44CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B81B3A62AA0F4C900DD44CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B81B3A52AA0F4C900DD44CA /* MacADBTool.app */,
+				2B81B3B62AA0F4CA00DD44CA /* MacADBToolTests.xctest */,
+				2B81B3C02AA0F4CA00DD44CA /* MacADBToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B81B3A72AA0F4C900DD44CA /* MacADBTool */ = {
+			isa = PBXGroup;
+			children = (
+				2B81B3A82AA0F4C900DD44CA /* MacADBToolApp.swift */,
+				2B81B3AA2AA0F4C900DD44CA /* ContentView.swift */,
+				2B81B3AC2AA0F4CA00DD44CA /* Assets.xcassets */,
+				2B81B3B12AA0F4CA00DD44CA /* MacADBTool.entitlements */,
+				2B81B3AE2AA0F4CA00DD44CA /* Preview Content */,
+			);
+			path = MacADBTool;
+			sourceTree = "<group>";
+		};
+		2B81B3AE2AA0F4CA00DD44CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B81B3AF2AA0F4CA00DD44CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B81B3B92AA0F4CA00DD44CA /* MacADBToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B81B3BA2AA0F4CA00DD44CA /* MacADBToolTests.swift */,
+			);
+			path = MacADBToolTests;
+			sourceTree = "<group>";
+		};
+		2B81B3C32AA0F4CA00DD44CA /* MacADBToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B81B3C42AA0F4CA00DD44CA /* MacADBToolUITests.swift */,
+				2B81B3C62AA0F4CA00DD44CA /* MacADBToolUITestsLaunchTests.swift */,
+			);
+			path = MacADBToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B81B3A42AA0F4C900DD44CA /* MacADBTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B81B3CA2AA0F4CA00DD44CA /* Build configuration list for PBXNativeTarget "MacADBTool" */;
+			buildPhases = (
+				2B81B3A12AA0F4C900DD44CA /* Sources */,
+				2B81B3A22AA0F4C900DD44CA /* Frameworks */,
+				2B81B3A32AA0F4C900DD44CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacADBTool;
+			productName = MacADBTool;
+			productReference = 2B81B3A52AA0F4C900DD44CA /* MacADBTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B81B3B52AA0F4CA00DD44CA /* MacADBToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B81B3CD2AA0F4CA00DD44CA /* Build configuration list for PBXNativeTarget "MacADBToolTests" */;
+			buildPhases = (
+				2B81B3B22AA0F4CA00DD44CA /* Sources */,
+				2B81B3B32AA0F4CA00DD44CA /* Frameworks */,
+				2B81B3B42AA0F4CA00DD44CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B81B3B82AA0F4CA00DD44CA /* PBXTargetDependency */,
+			);
+			name = MacADBToolTests;
+			productName = MacADBToolTests;
+			productReference = 2B81B3B62AA0F4CA00DD44CA /* MacADBToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B81B3BF2AA0F4CA00DD44CA /* MacADBToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B81B3D02AA0F4CA00DD44CA /* Build configuration list for PBXNativeTarget "MacADBToolUITests" */;
+			buildPhases = (
+				2B81B3BC2AA0F4CA00DD44CA /* Sources */,
+				2B81B3BD2AA0F4CA00DD44CA /* Frameworks */,
+				2B81B3BE2AA0F4CA00DD44CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B81B3C22AA0F4CA00DD44CA /* PBXTargetDependency */,
+			);
+			name = MacADBToolUITests;
+			productName = MacADBToolUITests;
+			productReference = 2B81B3C02AA0F4CA00DD44CA /* MacADBToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B81B39D2AA0F4C900DD44CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2B81B3A42AA0F4C900DD44CA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2B81B3B52AA0F4CA00DD44CA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2B81B3A42AA0F4C900DD44CA;
+					};
+					2B81B3BF2AA0F4CA00DD44CA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2B81B3A42AA0F4C900DD44CA;
+					};
+				};
+			};
+			buildConfigurationList = 2B81B3A02AA0F4C900DD44CA /* Build configuration list for PBXProject "MacADBTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B81B39C2AA0F4C900DD44CA;
+			productRefGroup = 2B81B3A62AA0F4C900DD44CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B81B3A42AA0F4C900DD44CA /* MacADBTool */,
+				2B81B3B52AA0F4CA00DD44CA /* MacADBToolTests */,
+				2B81B3BF2AA0F4CA00DD44CA /* MacADBToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B81B3A32AA0F4C900DD44CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B81B3B02AA0F4CA00DD44CA /* Preview Assets.xcassets in Resources */,
+				2B81B3AD2AA0F4CA00DD44CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81B3B42AA0F4CA00DD44CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81B3BE2AA0F4CA00DD44CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B81B3A12AA0F4C900DD44CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B81B3AB2AA0F4C900DD44CA /* ContentView.swift in Sources */,
+				2B81B3A92AA0F4C900DD44CA /* MacADBToolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81B3B22AA0F4CA00DD44CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B81B3BB2AA0F4CA00DD44CA /* MacADBToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81B3BC2AA0F4CA00DD44CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B81B3C72AA0F4CA00DD44CA /* MacADBToolUITestsLaunchTests.swift in Sources */,
+				2B81B3C52AA0F4CA00DD44CA /* MacADBToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B81B3B82AA0F4CA00DD44CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B81B3A42AA0F4C900DD44CA /* MacADBTool */;
+			targetProxy = 2B81B3B72AA0F4CA00DD44CA /* PBXContainerItemProxy */;
+		};
+		2B81B3C22AA0F4CA00DD44CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B81B3A42AA0F4C900DD44CA /* MacADBTool */;
+			targetProxy = 2B81B3C12AA0F4CA00DD44CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B81B3C82AA0F4CA00DD44CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B81B3C92AA0F4CA00DD44CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B81B3CB2AA0F4CA00DD44CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacADBTool/MacADBTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacADBTool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wensly.MacADBTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B81B3CC2AA0F4CA00DD44CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacADBTool/MacADBTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacADBTool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wensly.MacADBTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B81B3CE2AA0F4CA00DD44CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wensly.MacADBToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacADBTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacADBTool";
+			};
+			name = Debug;
+		};
+		2B81B3CF2AA0F4CA00DD44CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wensly.MacADBToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacADBTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacADBTool";
+			};
+			name = Release;
+		};
+		2B81B3D12AA0F4CA00DD44CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wensly.MacADBToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacADBTool;
+			};
+			name = Debug;
+		};
+		2B81B3D22AA0F4CA00DD44CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wensly.MacADBToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacADBTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B81B3A02AA0F4C900DD44CA /* Build configuration list for PBXProject "MacADBTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B81B3C82AA0F4CA00DD44CA /* Debug */,
+				2B81B3C92AA0F4CA00DD44CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B81B3CA2AA0F4CA00DD44CA /* Build configuration list for PBXNativeTarget "MacADBTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B81B3CB2AA0F4CA00DD44CA /* Debug */,
+				2B81B3CC2AA0F4CA00DD44CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B81B3CD2AA0F4CA00DD44CA /* Build configuration list for PBXNativeTarget "MacADBToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B81B3CE2AA0F4CA00DD44CA /* Debug */,
+				2B81B3CF2AA0F4CA00DD44CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B81B3D02AA0F4CA00DD44CA /* Build configuration list for PBXNativeTarget "MacADBToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B81B3D12AA0F4CA00DD44CA /* Debug */,
+				2B81B3D22AA0F4CA00DD44CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B81B39D2AA0F4C900DD44CA /* Project object */;
+}
